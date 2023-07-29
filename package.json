@@ -1,0 +1,19 @@
+{
+  "name": "fixedassets",
+  "version": "1.0.0",
+  "description": "Gain and Lost fixed assets calculator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jesus Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "3": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sequelize": "^6.32.1",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  }
+}

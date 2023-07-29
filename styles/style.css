@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+    font-family: 'Inconsolata', monospace;    
+}
+
+#title{
+    font-size: 1rem;
+    width: 30%;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    color: white;
+    margin: auto;
+    
+}
+form{
+    width: 40%;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.field{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+.field label{
+    width: 40%;
+    font-size: small;
+    
+}
+.field input{
+    width: 20%;
+    scroll-behavior: none;
+    text-align: center;
+}
+.field span{
+    width: 10%;
+}
+fieldset{
+    margin: 1em 0 1em 0;
+}
+
+#fieldOpt{
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem;
+}
+#fieldOpt select{
+    width: 50%;
+}
+
+textarea{
+    width: 90%;
+}
+
+.choose{
+    margin:1rem auto;
+   
+}
+

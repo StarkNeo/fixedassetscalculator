@@ -4,7 +4,7 @@
   "description": "Gain and Lost fixed assets calculator",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "app.js"
   },
   "author": "Jesus Hernandez",
   "license": "ISC",

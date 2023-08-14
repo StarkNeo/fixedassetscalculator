@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000
 app.use(cors());
 app.use(express.json())
 app.listen(port, () => {
-    console.log("Servidor levantado en el puerto 3000")
+    console.log("Servidor levantado con exito")
 })
 
 app.post('/getInpc', async (req, res) => {

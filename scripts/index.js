@@ -86,7 +86,7 @@ const getDate = async (id, value) => {
 
 async function getInpc(month, year) {
 
-    jsonData = { month, year }
+    let jsonData = { month, year }
     let url = 'http://localhost:3000/getInpc';
     let init = {
         method: 'POST',

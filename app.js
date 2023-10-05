@@ -13,10 +13,8 @@ app.listen(port, () => {
 app.post('/getInpc', async (req, res) => {
     try {
         let response = await crud.consulta(req.body.month, req.body.year);
-        console.log(response);
         res.status(200).send({ message: "inpc recibido", data: response })
     } catch (error) {
-        console.log(error.message)
         res.status(400).send({message:"Indice", data: 1})
     }
 
